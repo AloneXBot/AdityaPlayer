@@ -68,6 +68,10 @@ Aditya-Player is an advanced & powerful multi-featured Telegram vc streaming bot
 <h2>🌐 Updates & Support</h2>
 <p title="Support">You can join Aditya-Player's official Telegram channel and group on Telegram for any updates and support-related issues of Aditya-Player.</p>
 
+# ʜᴇʀᴋᴜ ᴅᴇᴘʟᴏʏ
+</h3>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/royalboycoder/YT-Music-Repo"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
 - Telegram Updates: [**`@AdityaServer`**](https://t.me/adityaserver)
 
 - Telegram Support: [**`@AdityaDiscus`**](https://t.me/adityadiscus)
