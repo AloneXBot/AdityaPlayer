@@ -1,5 +1,5 @@
 {
-    "name": "KaaL Music Repo",
+    "name": "Aditya Player",
     "description": "A VC Player Bot for telegram videochats, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "",
     "keywords": [
@@ -28,7 +28,7 @@
       },
       "OWNER_ID": {
         "description": "Fill your user id here. (Must be integer)",
-        "value": "6256455516",
+        "value": "",
         "required": true
       },
       "SESSION_NAME": {
@@ -36,17 +36,16 @@
         "value": "",
         "required": true
       },
-      "SUDO_USERS": {
-        "description": "The user id(s) of user(s) whom you would like to add as a sudo. Multiple values shall be seperated with a space.",
+      "MONGO_DB_URL": {
+        "description": "Fill your MongoDb URL",
         "value": "",
         "required": true
       },
-      "BOT_USERNAME": {
-        "description": "ur bot username",
-        "value": "KAALXMUSIC34bot",
+      "LOG_GROUP_ID": {
+        "description": "Fill your Log Group id here.",
+        "value": "",
         "required": true
-      }
-    },
+
     "buildpacks": [
           {
               "url": "heroku/python"
@@ -58,5 +57,5 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
-      "stack": "container"
+      "stack": "eco"
 }
