@@ -1,6 +1,3 @@
-
-
-
 FROM ubuntu:jammy
 RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y git python3-pip \
