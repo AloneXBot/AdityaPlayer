@@ -1,8 +1,3 @@
-
-
-RUN curl -sL https://deb.nodesource.com/setup_18.x | bash -
-RUN apt-get install -y nodejs
-
 FROM ubuntu:jammy
 RUN apt-get update -y && apt-get upgrade -y \
     && apt-get install -y git python3-pip \
