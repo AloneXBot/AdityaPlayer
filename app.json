@@ -45,7 +45,7 @@
         "description": "Fill your Log Group id here.",
         "value": "",
         "required": true
-
+      }
     "buildpacks": [
           {
               "url": "heroku/python"
