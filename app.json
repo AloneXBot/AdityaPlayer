@@ -46,6 +46,7 @@
         "value": "",
         "required": true
       }
+    },   
     "buildpacks": [
           {
               "url": "heroku/python"
@@ -58,4 +59,4 @@
           }
       ],
       "stack": "eco"
-}
+ }
