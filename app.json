@@ -10,6 +10,7 @@
     "telegram-bot",
     "pyrogram"
     ],
+    "stack": "container",
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
@@ -58,5 +59,10 @@
               "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
           }
       ],
-      "stack": "eco"
- }
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "eco"
+          }
+      }
+  }
